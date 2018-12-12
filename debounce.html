@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>debounce</title>
+    <link rel="stylesheet" href="">
+    <style>
+        .container {
+        position: fixed;
+        top: 0;
+        left: 45%;
+
+        display: block;
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        border: 1px solid #cdcdcd;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        输入框： <input type="text" id="exampleInput"><button id="cancelBtn">取消</button>
+    </div>
+    <script>
+    window.onload = function() {
+        var inputEl = document.getElementById("exampleInput");
+
+
+        var debouncedFunc = debounce(ajax, 1000, true); // 将事件处理函数经过去抖函数处理。
+        inputEl.oninput = debouncedFunc; // 绑定去抖后的事件回调函数
+
+        var cancelBtnEL = document.getElementById("cancelBtn");
+        cancelBtnEL.onclick = debouncedFunc.cancel; // 绑定回调函数的属性 cancel 方法，点击页面，重置去抖效果
+
+        function ajax(event) {
+
+            console.log("HTTP 异步请求：", event.target.value);
+        }
+
+        function debounce(func, delay, immediate) {
+            var interval = delay || 1000;
+            var date = new Date();
+            var now = date.getTime();
+            var previous = now;
+
+            var revokeFunc = function(args) {
+                var context = this;
+                var nowDate = new Date();
+                var time = nowDate.getTime();
+
+                if (time - previous > delay) {
+                    func.call(context, args)
+                    previous = time;
+                } else {
+                    previous = time;
+                }
+
+            }
+
+            revokeFunc.cancel = function() {
+
+            }
+
+            return revokeFunc;
+        }
+    }
+    </script>
+</body>
+
+</html>
