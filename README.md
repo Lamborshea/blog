@@ -1,5 +1,26 @@
 # blog
 blog 前端 博客 
 
-## CSS
+## List
 1. [CSS之命名规范](https://github.com/Lamborshea/blog/issues/1)
+2. [JavaScript之变量及作用域](https://github.com/Lamborshea/blog/issues/2)
+3. [JavaScript之声明提升](https://github.com/Lamborshea/blog/issues/3)
+4. [JavaScript原型与原型链](https://github.com/Lamborshea/blog/issues/4)
+5. [JavaScript之执行上下文](https://github.com/Lamborshea/blog/issues/5)
+6. [JavaScript之变量对象](https://github.com/Lamborshea/blog/issues/6)
+7. [JavaScript之作用域链](https://github.com/Lamborshea/blog/issues/7)
+8. [JavaScript之闭包](https://github.com/Lamborshea/blog/issues/8)
+9. [JavaScript之this](https://github.com/Lamborshea/blog/issues/9)
+10. [JavaScript之例题中彻底理解this](https://github.com/Lamborshea/blog/issues/10)
+11. [JavaScript专题之模拟实现call和apply](https://github.com/Lamborshea/blog/issues/11)
+12. [JavaScript专题之模拟实现bind](https://github.com/Lamborshea/blog/issues/12)
+13. [JavaScript专题之模拟实现new](https://github.com/Lamborshea/blog/issues/13)
+14. [JavaScript原型与原型链](https://github.com/Lamborshea/blog/issues/14)
+15. [JavaScript之arguments](https://github.com/Lamborshea/blog/issues/15)
+16. [JavaScript之按值传递](https://github.com/Lamborshea/blog/issues/16)
+17. [JS专题之事件模型](https://github.com/Lamborshea/blog/issues/17)
+18. [JS专题之事件循环](https://github.com/Lamborshea/blog/issues/18)
+19. [JS专题之去抖函数](https://github.com/Lamborshea/blog/issues/19)
+20. [JS专题之节流函数](https://github.com/Lamborshea/blog/issues/20)
+21. [JS专题之数据类型和类型检测](https://github.com/Lamborshea/blog/issues/21)
+22. [JS专题之函数柯里化](https://github.com/Lamborshea/blog/issues/22)
