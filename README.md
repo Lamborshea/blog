@@ -25,3 +25,4 @@ blog 前端 博客
 21. [JS专题之数据类型和类型检测](https://github.com/Lamborshea/blog/issues/21)
 22. [JS专题之函数柯里化](https://github.com/Lamborshea/blog/issues/22)
 23. [JS专题之数组去重](https://github.com/Lamborshea/blog/issues/23)
+24. [JS专题之深浅拷贝](https://github.com/Lamborshea/blog/issues/24)
