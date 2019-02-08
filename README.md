@@ -28,3 +28,4 @@ blog 前端 博客
 24. [JS专题之深浅拷贝](https://github.com/Lamborshea/blog/issues/24)
 25. [JS专题之数组展开](https://github.com/Lamborshea/blog/issues/25)
 26. [JS专题之严格模式](https://github.com/Lamborshea/blog/issues/26)
+27. [JS专题之memoization](https://github.com/Lamborshea/blog/issues/27)
