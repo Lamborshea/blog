@@ -31,3 +31,4 @@ blog 前端 博客
 27. [JS专题之memoization](https://github.com/Lamborshea/blog/issues/27)
 28. [JS专题之垃圾回收](https://github.com/Lamborshea/blog/issues/28)
 29. [JS专题之继承](https://github.com/Lamborshea/blog/issues/29)
+30. [JS异步编程之callback](https://github.com/Lamborshea/blog/issues/30)
