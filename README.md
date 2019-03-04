@@ -33,3 +33,5 @@ blog 前端 博客
 29. [JS专题之继承](https://github.com/Lamborshea/blog/issues/29)
 30. [JS异步编程之callback](https://github.com/Lamborshea/blog/issues/30)
 31. [JS异步编程之Promise](https://github.com/Lamborshea/blog/issues/31)
+32. [JS异步编程之Generator](https://github.com/Lamborshea/blog/issues/32)
+33. [JS异步编程之async&await](https://github.com/Lamborshea/blog/issues/33)
