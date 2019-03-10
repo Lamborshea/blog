@@ -35,3 +35,4 @@ blog 前端 博客
 31. [JS异步编程之Promise](https://github.com/Lamborshea/blog/issues/31)
 32. [JS异步编程之Generator](https://github.com/Lamborshea/blog/issues/32)
 33. [JS异步编程之async&await](https://github.com/Lamborshea/blog/issues/33)
+34. [JS模块化编程](https://github.com/Lamborshea/blog/issues/34)
